@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEWCHIC - FNT</title>
+    <meta name="description" content="SEWCHIC offers a wide range of chic sewing designs and patterns. Explore our shop for the latest trends in sewing and fashion.">
+    <meta name="keywords" content="SEWCHIC, Ecstacy, Black, White, Red, BW&R, sewing, fashion, sewing patterns, chic designs, shop sewing, fashion sewing, sewing trends">
+    <meta name="author" content="SEWCHIC">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@300&display=swap" rel="stylesheet">
+    <link rel="preload" href="img/main-bg.jpg" as="image">
+    <style>
+        /* Reset some basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background-color: black; /* Default background color */
+            color: white; /* Default text color */
+            overflow-x: hidden;
+        }
+
+        .container {
+            position: relative;
+            min-height: 100%;
+            width: 100%;
+            background: black url('img/owners.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            max-height: 150px;
+            max-width: 150px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .nav-links a {
+            color: #b3b3b1;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500; /* Medium 500 font weight */
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+        .nav-links a:hover {
+            color: white; /* Change text color to white on hover */
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: 'General Sans', Arial, sans-serif;
+        }
+
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .owner-signature {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .highlight {
+            color: red; /* Change text color to red */
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                max-height: 40px;
+                max-width: 120px;
+            }
+
+            .nav-links a {
+                font-size: 14px;
+            }
+
+            .content h1 {
+                font-size: 20px;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+
+            .owner-signature {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/SEWCHIC logo.png" alt="SEWCHIC Logo - Chic Sewing Designs" class="logo">
+        </header>
+        <nav class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="https://sewchic.in/card/card.html">LOGIN</a>
+            <a href="https://sewchic.in/about.html">ABOUT</a>
+        </nav>
+        <div class="content">
+            <h1>Owner's Note</h1>
+            <p>
+                Greetings,<br><br>
+                At <span class="highlight">SewChic</span>, we embarked on this journey with a vision to redefine not just fashion, but the entire experience of self-expression and community empowerment. As the proud owner, it is both an honor and a pleasure to welcome you into our world.
+            </p>
+            <p>
+                Our commitment goes beyond the stitches and seams of the clothes we offer. We are dedicated to build a brand that stands for more - a brand that becomes a dynamic force for positive change in both fashion and community. We believe in the power of collaboration, the strength of local businesses, and the impact of making fashion accessible to all. From curating styles that resonate with diverse communities to partnering with local vendors for our exclusive discount cards, every decision is rooted in the belief that together, we can create something extraordinary.
+            </p>
+            <p>
+                As we continue this journey, we <span class="highlight">invite you to be a part of our story</span>. Whether you're slipping into our latest designs, utilizing our discount cards for significant savings, or joining us in community initiatives, know that you're not just a customer; you're an integral part of the <span class="highlight">SewChic</span> family.
+            </p>
+            <p>
+                Thank you for choosing us. Here's to a future filled with style, collaboration, and positive impact.
+            </p>
+            <p class="owner-signature">
+                Warm regards,<br>
+                Akshat Tiwari<br>
+                Owner, SewChic
+            </p>
+        </div>
+    </div>
+</body>
+</html>
