@@ -64,7 +64,7 @@
     height: 100%;
     overflow: hidden;
     pointer-events: none;
-    background-image: url(../imgs/header/g-back.png);
+    background-image: url(https://raw.githubusercontent.com/sewchic/img/refs/heads/main/header/g-back.png);
     background-size: cover;
     z-index: -1; }
     .header-da .background:before {
@@ -86,7 +86,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url(../imgs/header/Grid.png);
+      background-image: url(https://raw.githubusercontent.com/sewchic/img/refs/heads/main/header/d.png);
       background-size: 60%;
       background-repeat: repeat;
       z-index: -1;
@@ -352,7 +352,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../imgs/testim/mesh-gradient.png);
+    background-image: url(https://raw.githubusercontent.com/sewchic/img/refs/heads/main/header/testim/mesh-gradient.png);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
