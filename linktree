@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEWCHIC | Linktree</title>
+    <style>
+        /* Import the custom font */
+        @import url(https://db.onlinewebfonts.com/c/b52804ac57ef6e90d2826a6b0f111133?family=Integral+CF+Bold);
+
+        /* CSS Styles */
+        body {
+            font-family: 'Integral CF Bold', sans-serif; /* Apply the custom font */
+            margin: 0;
+            padding: 0;
+            background-image: url('https://example.com/your-background-image.jpg'); /* Add your background image URL */
+            background-size: cover; /* Makes the image cover the full page */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents repeating */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            width: 320px;
+        }
+
+        h1 {
+            font-size: 28px; /* Adjust size for better visibility */
+            margin-bottom: 5px;
+        }
+
+        .bio {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            display: block;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <h1>SEWCHIC.</h1>
+            <p class="bio"></p>
+        </div>
+
+        <div class="links">
+            <a href="https://sewchic.in/" class="link" target="_blank">Our Website</a>
+            <a href="https://sewchic.in/swipe.html" class="link" target="_blank">Fit Check</a>
+            <a href="https://sewchic.in/about.html" class="link" target="_blank">About Us</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5_QtkuYhA6MX9U9SX7Ht_wYhByWJ6zLbU2qmVdx3-g5B2uA/viewform" class="link" target="_blank">Be Our Model</a>
+        </div>
+    </div>
+
+</body>
+</html>
